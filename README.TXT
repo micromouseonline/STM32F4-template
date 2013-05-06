@@ -6,8 +6,8 @@ stm32f4-template
 - Provides basic setup for the indicator lights on the board as well as a status LED connected to PB2 (Boot1).
 - The internal oscillator is used and the processor clock set to 72MHz.
 - A 1kHz systick interrupt handler is instantiated which toggles the status LED at 500Hz.
-- All the CMSIS headers live in the folder ./cmsis
-- All the STM32F4 peripheral library files live in the folder ./peripheral-library
+- All the CMSIS headers  (from the V1.1.0 Peripheral library) live in the folder ./cmsis
+- All the STM32F4 peripheral library files (V1.1.0) live in the folder ./peripheral-library
 - By default, the build will exclude unused code so the binary will be no bigger than it needs to be.
 - The following preprocessor definitions have been made: 
     USE_FULL_ASSERT

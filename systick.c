@@ -4,6 +4,7 @@
 #include "hardware.h"
 #include "systick.h"
 
+volatile bool crashed = false;
 
 static volatile uint32_t ticks;
 static RCC_ClocksTypeDef RCC_Clocks;
@@ -58,6 +59,8 @@ inline uint32_t millis (void)
 
 void SysTick_Handler (void)
 {
-  STATUS_TOGGLE();
+  if (!crashed) {
+    STATUS_TOGGLE();
+  }
   ticks++;
 }

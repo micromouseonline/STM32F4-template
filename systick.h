@@ -5,8 +5,10 @@
 extern "C" {
 #endif
 
+#include <stdbool.h>
 #include <stdint.h>
 
+  extern volatile bool crashed;
   void systickInit (uint16_t frequency);
   void delay (volatile uint32_t count);
   void delay_us (uint32_t t);

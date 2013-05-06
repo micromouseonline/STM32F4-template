@@ -71,6 +71,7 @@ void assert_failed (/*@unused@*/uint8_t *file, /*@unused@*/uint32_t line)
      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
   /* Infinite loop */
   debug_printf ("Assert Fail: file %s on line %d\r\n", file, line);
+  crashed = true;
   while (true) {
     STATUS_ON();
     delay_us (100000);

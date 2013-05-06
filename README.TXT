@@ -30,7 +30,7 @@ stm32f4-template
 - a delay_ms() function uses a counter maintained by the systtick event to give millisecond-resolution timing.
 - a software timing function, delay_us(), gives timing independent of the systick event but dependent upon clock speed.
 - Assertion failures will halt the processor and blink the status LED after printing a diagnostic message to the debug terminal.
-- USE_FULL_ASSERT is still defined in Release mode
+- USE_FULL_ASSERT is not defined in Release mode
  
 ========================
 Peter Harrison  May 2013

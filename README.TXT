@@ -31,6 +31,11 @@ stm32f4-template
 - a software timing function, delay_us(), gives timing independent of the systick event but dependent upon clock speed.
 - Assertion failures will halt the processor and blink the status LED after printing a diagnostic message to the debug terminal.
 - USE_FULL_ASSERT is not defined in Release mode
+
+6 May 2013
+- added USART initialisation along with putchar and getchar implementations so that
+  simple character I/O can be done throught USART1.
+- See hardware.h for USART port/pin definitions
  
 ========================
 Peter Harrison  May 2013

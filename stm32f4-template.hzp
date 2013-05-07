@@ -11,6 +11,8 @@
       <file file_name="systick.h"/>
       <file file_name="hardware.h"/>
       <file file_name="stm32f4xx_conf.h"/>
+      <file file_name="usart.c"/>
+      <file file_name="usart.h"/>
     </folder>
     <folder Name="System Files">
       <file file_name="$(StudioDir)/source/thumb_crt0.s"/>

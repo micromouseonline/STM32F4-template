@@ -6,6 +6,7 @@ extern "C" {
 #endif
 
 #include <stdint.h>
+#include "stm32f4xx.h"
 
   /*
     A status LED is connected to pin the BOOT1 pin (PB2)
@@ -39,6 +40,21 @@ extern "C" {
 #define BLUE_LED        LED_PORT,BLUE_PIN
 #define ALL_LEDS        LED_PORT,ALL_LED_PINS
 
+// The serial port
+
+#define USART_BAUD          115200
+#define USART               USART1
+#define USART_CLK           RCC_APB2Periph_USART1
+#define USART_CLK_CMD       RCC_APB2PeriphClockCmd
+
+#define USART_GPIO          GPIOA
+#define USART_GPIO_CLK      RCC_AHB1Periph_GPIOA
+#define USART_GPIO_CLK_CMD  RCC_AHB1PeriphClockCmd
+#define GPIO_AF_USART       GPIO_AF_USART1
+#define USART_TX_PIN        GPIO_Pin_9
+#define USART_RX_PIN        GPIO_Pin_10
+#define USART_TX_AF_SRC     GPIO_PinSource9
+#define USART_RX_AF_SRC     GPIO_PinSource10
 
 #ifdef __cplusplus
 } // extern "C"

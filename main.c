@@ -2,8 +2,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "stm32f4xx.h"
-#include "systick.h"
 #include "hardware.h"
+#include "systick.h"
+#include "usart.h"
 
 void status_led_init (void)
 {
@@ -41,6 +42,8 @@ int main (void)
   systickInit (1000);
   status_led_init();
   board_leds_init();
+  usart_init();
+  printf ("\nHello, world!\n");
   while (1) {
     GPIO_SetBits (GREEN_LED);
     delay_ms (100);

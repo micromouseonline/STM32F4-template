@@ -24,65 +24,10 @@
     <folder Name="cmsis" file_name="" filter="*.c;*.h;*.cpp" path="cmsis" recurse="Yes"/>
     <folder Name="peripheral-library" filter="*.c;*.h;*.cpp" path="peripheral-library" recurse="Yes">
       <folder Name="include" filter="*.c;*.h;*.cpp" recurse="Yes">
-        <file file_name="peripheral-library/include/misc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_adc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_can.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_crc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_cryp.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_dac.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_dbgmcu.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_dcmi.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_dma.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_exti.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_flash.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_fsmc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_gpio.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_hash.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_i2c.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_iwdg.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_pwr.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_rcc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_rng.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_rtc.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_sdio.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_spi.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_syscfg.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_tim.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_usart.h"/>
-        <file file_name="peripheral-library/include/stm32f4xx_wwdg.h"/>
+        
       </folder>
       <folder Name="source" filter="*.c;*.h;*.cpp" recurse="Yes">
-        <file file_name="peripheral-library/source/misc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_adc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_can.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_crc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_cryp.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_cryp_aes.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_cryp_des.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_cryp_tdes.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_dac.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_dbgmcu.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_dcmi.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_dma.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_exti.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_flash.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_fsmc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_gpio.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_hash.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_hash_md5.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_hash_sha1.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_i2c.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_iwdg.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_pwr.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_rcc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_rng.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_rtc.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_sdio.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_spi.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_syscfg.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_tim.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_usart.c"/>
-        <file file_name="peripheral-library/source/stm32f4xx_wwdg.c"/>
+       
       </folder>
     </folder>
     <file file_name="README.TXT"/>
